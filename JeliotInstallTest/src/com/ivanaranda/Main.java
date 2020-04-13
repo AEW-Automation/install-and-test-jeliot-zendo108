@@ -66,7 +66,7 @@ public class Main
 	     
 	    public static void swap (Integer array[], int x, int y)
 	    {
-	        int temp = array[x].intValue();
+	    	Integer temp = array[x];
 	        array[x] = array[y];
 	        array[y] = temp;
 	    }
